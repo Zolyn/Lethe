@@ -1,0 +1,33 @@
+{
+  "name": "lethe",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "FORGETFULNESS IS THE END OF THE HUMAN PROGRAM.",
+  "main": "index.js",
+  "scripts": {
+    "run": "dotenv -c local esno src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zolyn/Lethe.git"
+  },
+  "author": "Yumeoto Zorin <zorin1477@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zolyn/Lethe/issues"
+  },
+  "homepage": "https://github.com/Zolyn/Lethe#readme",
+  "devDependencies": {
+    "@antfu/ni": "^0.16.2",
+    "@types/node": "^17.0.31",
+    "dotenv-cli": "^5.1.0",
+    "esno": "^0.14.1",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "conf": "^10.1.2",
+    "p-map": "^5.3.0",
+    "p-whilst": "^3.0.0"
+  }
+}
